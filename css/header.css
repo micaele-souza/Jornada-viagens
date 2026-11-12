@@ -52,7 +52,7 @@ nav {
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
-  font-weight: var(--menu-text-weight);
+  font-weight: var(--menu-text-weight: 500);
   font-size: 24px;
 }
 
