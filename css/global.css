@@ -1,15 +1,6 @@
 /* CSS RESET */
-body,
-img,
-h1,
-p,
-fieldset,
-legend,
-label,
-input,
-select,
-textarea,
-button {
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,7 +14,7 @@ body {
   font-family: montserrat;
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
-  font-dipsplay: swap;
+  font-display: swap;
 }
 
 :root {
