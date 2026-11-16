@@ -6,19 +6,50 @@
   background-position: center;
 }
 
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     background: url("../img/hero-tablet.jpg") no-repeat;
     background-size: cover;
     height: 620px;
   }
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img {
-    background: url("../img/hero-desktop2.jpg") no-repeat;
+    background: url("../img/hero-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 620px;
   }
+
+  .hero h2 {
+    padding: 88px 120px;
+  }
 }
+
+  @media screen and (min-width: 1920px) {
+    .hero h2 {
+      padding: 88px 160px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    .hero h2 {
+      padding: 88px 128px;
+    }
+  }
