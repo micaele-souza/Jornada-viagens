@@ -111,3 +111,8 @@ nav {
     padding: 38px 160px;
   }
 }
+@media screen and (min-width: 1536px) {
+  header {
+    padding: 38px 128px;
+  }
+}
