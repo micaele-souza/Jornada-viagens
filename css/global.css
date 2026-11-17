@@ -23,16 +23,14 @@ body {
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
-  margin: 16px auto 32px; 
+  margin: 16px auto 32px;
   align-items: center;
- 
 }
 
-@media screen and (min-width:768px) {
-.section-title h2 {
-  font-size: 32px;
-}
-
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
 
 @font-face {
