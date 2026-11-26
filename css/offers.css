@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 104px;
+}
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -5,9 +9,8 @@
   gap: 24px;
 }
 
-.card {
+.offers-cards .card {
   color: var(--text-secondary-color);
-  background-color: black;
   width: 340px;
   height: 288px;
   box-sizing: border-box;
@@ -16,20 +19,20 @@
   text-align: center;
 }
 
-.card header {
+.offers-cards .card header {
+  margin-bottom: 24px;
   display: block;
-  background-color: transparent;
   position: static;
   padding: 0;
-  margin-bottom: 24px;
+  background-color: transparent;
 }
 
-.card header p {
+.offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
-.card header h3 {
+.offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight: 700);
   margin: 8px 0 0;
@@ -37,28 +40,28 @@
   white-space: nowrap;
 }
 
-.card header span {
+.offers-cards .card header span {
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
 }
 
-.card.japao {
-  background: url(../img/bg-card.japao.png);
+.offers-cards .card.japao {
+  background: url(../img/bg-card-japao.jpg);
   background-size: cover;
 }
 
-.card.san-andreas {
+.offers-cards .card.san-andreas {
   background: url(../img/bg-card-san-andreas.jpg);
   background-size: cover;
 }
 
-.card.paraiba {
+.offers-cards .card.paraiba {
   background: url(../img/bg-card-paraiba.jpg);
   background-size: cover;
 }
 
-.card.manaus {
+.offers-cards .card.manaus {
   background: url(../img/bg-card-manaus.jpg);
   background-size: cover;
 }
@@ -72,28 +75,27 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
+  }
+  .offers-cards.card header h3 {
+    font-size: 48px;
+  }
+
+  .offers-cards.card header span {
+    font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }
 @media screen and (min-width: 1920px) {
-  .card {
+  .offers-cards .card {
     width: 1250px;
     margin: 0 auto;
   }
-}
-
-.card header h3 {
-  font-size: 48px;
-}
-
-.card header span {
-  font-size: 40px;
 }

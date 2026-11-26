@@ -86,6 +86,10 @@ nav {
   header {
     padding: 38px 120px;
     align-items: center;
+
+  }
+  .list-links{
+
   }
 
   .logo {
@@ -103,6 +107,7 @@ nav {
 
   .navigation-menu a:hover {
     color: var(--primary-color);
+    
   }
 }
 
