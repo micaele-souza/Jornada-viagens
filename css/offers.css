@@ -20,11 +20,11 @@
 }
 
 .offers-cards .card header {
+  margin-bottom: 24px;
   display: block;
-  background-color: transparent;
   position: static;
   padding: 0;
-  margin-bottom: 24px;
+  background-color: transparent;
 }
 
 .offers-cards .card header p {
@@ -46,22 +46,22 @@
   display: inline-block;
 }
 
-.offers-cards .card .japao {
+.offers-cards .card.japao {
   background: url(../img/bg-card-japao.jpg);
   background-size: cover;
 }
 
-.offers-cards .card .san-andreas {
+.offers-cards .card.san-andreas {
   background: url(../img/bg-card-san-andreas.jpg);
   background-size: cover;
 }
 
-.offers-cards .card .paraiba {
+.offers-cards .card.paraiba {
   background: url(../img/bg-card-paraiba.jpg);
   background-size: cover;
 }
 
-.offers-cards .card .manaus {
+.offers-cards .card.manaus {
   background: url(../img/bg-card-manaus.jpg);
   background-size: cover;
 }
@@ -79,6 +79,13 @@
     width: 420px;
     height: 308px;
   }
+  .offers-cards.card header h3 {
+    font-size: 48px;
+  }
+
+  .offers-cards.card header span {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -91,12 +98,4 @@
     width: 1250px;
     margin: 0 auto;
   }
-}
-
-.offers-cards.card header h3 {
-  font-size: 48px;
-}
-
-.offers-cards.card header span {
-  font-size: 40px;
 }
